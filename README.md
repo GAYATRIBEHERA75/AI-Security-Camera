@@ -1,29 +1,70 @@
 # Face Detection System
 
-A real-time face detection project using Python and OpenCV.
+## Project Overview
+
+This project is a Real-Time Face Detection System developed using Python and OpenCV. The system captures live video from a webcam, detects human faces in real time, and highlights them with bounding boxes.
 
 ## Features
 
-- Real-time webcam face detection
-- Face count display
-- Date and time display
-- Screenshot capture
-- Keyboard controls
+* Real-time face detection using webcam
+* Face count display
+* Current date and time display
+* Face highlighting with rectangles
+* User-friendly interface
+* Press Q to quit the application
 
-## Technologies
+## Technologies Used
 
-- Python
-- OpenCV
-- Computer Vision
+* Python 3
+* OpenCV
+* Haar Cascade Classifier
+* Computer Vision
 
-## Run
+## Project Structure
 
-py -m pip install -r requirements.txt
+Face-Detection-System/
+
+├── face_detect.py
+
+├── README.md
+
+├── requirements.txt
+
+└── screenshots/
+
+## Installation
+
+1. Install Python.
+2. Install OpenCV:
+
+py -m pip install opencv-python
+
+## Run the Project
 
 py face_detect.py
 
-## Controls
+## Output
 
-S = Save Screenshot
+The application will:
 
-Q = Quit
+* Open the webcam
+* Detect faces in real time
+* Display the number of faces detected
+* Show current date and time
+* Draw rectangles around detected faces
+
+## Future Enhancements
+
+* Face Recognition
+* Attendance Management System
+* Emotion Detection
+* Mask Detection
+* AI-based Security Monitoring
+
+## Author
+
+Gayatri Behera
+
+B.Tech Computer Science Engineering
+
+Computer Vision Project using Python and OpenCV
